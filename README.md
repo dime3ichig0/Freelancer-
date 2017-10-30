@@ -1,80 +1,80 @@
-# Freelancer
+este trabajo lo hice por secciones
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+#Seccion 1
 
-***
+cree un cuadro contenedor 
+agregando <p> para incluir parrafos
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+en css a el cuadro contenedor le di un color de fondo,altura,anchura,z-index par que la tipografia se pudiera ver sobre el y una posicion fixed,
 
-## Flujo de trabajo
+al texto lo manipule a traves de top y left,le di un color,tipografia y una posicion absulta(se lo di a casi todo :( ) 
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+#Seccion 2
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+cree un cuadro contenedor,cree una clase para incertar mi primera imagen.
 
-## Objetivo
+cree 3 div para poder crear lo que se me pedia a traves de 3 divs id,los cuales ocupe en toda las demas secciones,cree 2 divs para una barritas que en css las cree con backgroung color,les di altura y anchura,la estrella la hice con una <p> en un div id,cuando tuve esos 3 elementos listos en css fui con top y left ajustando los 3 elementos para que quedaran completamente alineados
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+cree un div id para agregar un texto y con strong para que la tipografia quedara aun mas gruesa
 
-![Freelancer Website](docs/fullpage.png)
+en css el cuadro contenedor le di,altura,anchura,posicion absoluta.
 
-## Consideraciones
+al texto,le di su tipogradia,color,tamaño y la manipule con margin.
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
+#Seccion 3
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+cree un cuadro contenedor blanco
+en css el di altura,anchura,color y le le aplique para que el texto se alineara
 
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
+cree un parrafo,le di tipografia,tamaño,lo manipule con margin.
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
+barrita,estrella,barrita *explicado anteriormente*
 
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
+cree una clase para poder llamar a mis imagenes en css,a traves de <img>.
+en css mis imagenes les ajuste el tamaño,ya que se habian desfigurado.les di flotar left para que se acomodaran y fui manipulandolas con margin para poder ir ordenandolas.les di un margen para que tubieran separacion una con otra.
 
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
 
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
+#Seccion 4
 
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
+cree un cuadro contenedor,le di un color en css,tamaño,altura y posicion.
 
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
+barrita-estrella-barrita *anteriormente explicado* 
 
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
+cree una clase para dos <p> que son 2 parrafos y en css a mis textos les di tipografia,margenes,altuara,anchura,ya que eran dos textos tuve que buscar muchos metodos para que ambos puderan quedar separados correctamente uno de el otro.
 
-## A tener en cuenta
+  cree una clases,inserte un icono y cree un texto.en css le di altura,anchura,un margen para que se separara con el texto de arriba,un pequeño borde y con radius le di una forma obalada.
 
-Este reto será evaluado sobre lo siguiente:
+#Seccion 5
 
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+cree un cuadro contenedor,le di un color en css,tamaño,altura y posicion.
+
+cree un id con <p> para el texto le di tipogrfia,altura con los margenes,color y text-aling para que mi texto quedara alineado al centro
+
+barrita-estrella-barrita *anteriormente explicado* 
+
+en el formulario cree diferentes clases para mi texto y cada una de ellas en css las fui llamando y le fui dando margenes,alturas,tipografia ect.
+
+#Seccion 6
+
+en mi ultima seccion 
+cree una clase footer en donde agrege h2 y <p> en mi css les di tipografia a ambos,color,les cambie el tamaño,al h2 les di una posicion centrada mientras en <p> fui moviendo los parrados con los margenes y top
+
+cree una clase llamada iconos en donde tenia que insertar 5 iconos los cuales los saque de una pagina,copie el texto y los fui pegando en la clase "iconos"
+en css les di inline-block para que quedaran alindeados y text aling para que quedaran centrados,un margen para poder separarlos,dentro de ellos cree borde solido color blanco y le di un border radius para que se formara un circulo.
+
+
+cree una ultima clase,en ella agrege h2 y <p> en algunos textos agrege <a> para que fuera texto que tuviera que redirigir a una pagina. en css,les di margen,color,tipografia.
+
+en mi ultima clase puse un parrafo
+en css le di margen,tipografia,tamaño y altura.
+
+en conclusión de este trabajo,creo que fue fundamental el trabajo en equipo,las ayudantias,los profesores,el siempre estar preguntando a los profesores y a tu squad ya que sin la motivacion de ellas y sin su ayuda yo no habría podido concluir este trabajo.
+Copyright © Squad LowBattery!
+
+
+
+
+
