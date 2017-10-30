@@ -21,8 +21,8 @@ header{ /*Propiedades del texto*/
 #texto0{
   position: absolute;
   color: #FFFFFF;
-  top: 30px;
-  left: 30px;
+  top: 35px;
+  left:120px;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -30,8 +30,8 @@ header{ /*Propiedades del texto*/
 
 #texto1{
 	position: absolute;
-	top:15px;
-	left: 820px;                   /*TEXTO DE MENU*/   
+	top:47px;
+	left: 939px;                   /*TEXTO DE MENU*/   
 	color:#FFFFFF;
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
@@ -39,8 +39,8 @@ header{ /*Propiedades del texto*/
 
 #texto2{
 	position: absolute;            /*TEXTO DE MENU*/
-	top:15px;
-	left: 700px;
+	top:47px;
+	left: 1057px;
     font-size: 16px;
     color:#FFFFFF;
     font-family: 'Montserrat', sans-serif;
@@ -48,8 +48,8 @@ header{ /*Propiedades del texto*/
 
 #texto3{
 	position: absolute;
-	top:10px;                      /*TEXTO DE MENU*/
-	left: 1018px;
+	top:47px;                      /*TEXTO DE MENU*/
+	left: 1136px;
 	font-size: 17px;
 	color:#FFFFFF;
 	font-family: 'Montserrat', sans-serif;
@@ -190,16 +190,15 @@ img{/*imagen del caballero kawaii*/
 	margin-left: 1px;
 	margin-top: 90px;
   	font-size:47px;
-  	font-family: 'Montserrat', sans-serif;
+  	font-family: 'Mntserrat', sans-serif;
 }
 
 #barrita5{ /*Barra-Estrella-Barra*/
 	position: absolute;
 	background-color: #FFFFFF;
-
-	width:101px;
+    width:101px;
 	height:5px;
-	top:1965px;
+	top:1920px;
 	left:550px;
 }
 
@@ -208,17 +207,16 @@ img{/*imagen del caballero kawaii*/
 	font-size: 50px;
 	color: #FFFFFF;
 
-	top:1930px;
+	top:1885px;
 	left:654px;
 }
 
 #barrita6{ /*Barra-Estrella-Barra*/
 	position: absolute;
 	background-color: #FFFFFF;
-
-	width:101px;
+    width:101px;
 	height:5px;
-	top:1965px;
+	top:1920px;
 	left:698px;
 }
 
@@ -268,6 +266,45 @@ img{/*imagen del caballero kawaii*/
 #cuadrado-blanco-2 {
 	float: left;
 }
+
+#contacto-{
+	text-align: center;
+	margin-left: 170px;
+	margin-top: 110px;
+  	font-size:47px;
+ 	color:#212529;
+  	font-family: 'Montserrat', sans-serif;
+}
+
+#barrita7{ /*Barra-Estrella-Barra*/
+	position: absolute;
+	background-color: #2c3e50;
+
+	width:101px;
+	height:5px;
+	top:2520px;
+	left:550px;
+}
+
+#estrella4{ /*Barra-Estrella-Barra*/
+	position: absolute;
+	font-size: 50px;
+	color: #2c3e50;
+     top:2485px;
+	left:654px;
+}
+
+#barrita8{ /*Barra-Estrella-Barra*/
+	position: absolute;
+	background-color: #2c3e50;
+
+	width:101px;
+	height:5px;
+	top:2520px;
+	left:698px;
+}
+
+
 
 .formulario{
     margin-top: 100px;
@@ -324,31 +361,51 @@ img{/*imagen del caballero kawaii*/
 	width: 1349px;
 	float: left;
 	padding: 0 80px;
+	font-family:  'Lato', sans-serif;
 }
 
 .div-footer{
 	display: inline-block;
-	margin: 40px;
+	margin: 35px;
 	padding: 20px;
+	margin-top: 90px;
+	vertical-align: 10px;
+	vertical-align: text-top;
+}
+.div-footer h2{
+	color: #FFFFFF;
+	padding: 30px;
+	font-family:  'Montserrat', sans-serif;
+	font-size: 28px;
+	position: center;
+
+
 }
 
-.div-footer h2{
-	color: #fff;
-	padding: 30px;
-}
+
 
 .iconos{
-	display: inline-block;
-	position: center;
-	width:20%;
+    display: inline-block;
 	color:#FFFFFF;
-	height: 30px;
-	width: 30px;
+	margin:5px;
+	padding: 10px;
+	border: 2px solid #FFFFFF;
+	border-radius: 100px;
+	text-align: center;
 }
 
 .text-footer{
-	text-align: center;
-	font-size: 18px;
+	margin-right:40px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family:  'Lato', sans-serif;
+	padding-left: 430px;
 }
 
+.div-footer p{
+	margin-top:-5px;
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	top:30px;
 
